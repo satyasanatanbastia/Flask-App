@@ -3,7 +3,7 @@
             width: 0;
             box-sizing: border-box;
         } */
-        .container{
+        .h1-cls{
             margin-top: 80px;
         }
       h1 {
@@ -109,6 +109,8 @@
   line-height: 1.6;
   color: #ddd;
   text-decoration: none;
+  text-align: justify;
+  max-width: 276px;
 }
 
 .footer a:hover {
@@ -147,11 +149,18 @@
 }
 
 .footer-bottom {
-  text-align: center;
+  
   margin-top: 20px;
-  font-size: 14px;
   color: #ddd;
   border-top: 1px solid #444;
   padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer-bottom p{
+  font-size: 15px;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
 }
 
