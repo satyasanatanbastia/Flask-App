@@ -56,11 +56,13 @@
         border-radius: 5px;
         cursor: pointer;
         text-align: center;
+        text-decoration: none !important;
       }
 
       .job-button:hover {
         background-color: #0056b3;
         color: #fff;
+        text-decoration: none !important;
       }
 
       .job-button:focus {
@@ -177,28 +179,27 @@
 
 
 
-
-#myBtn {
+/* scroll-top button css */
+/* #scrollToTopBtn {
   display: none;
   position: fixed; 
   bottom: 20px; 
   right: 30px; 
   z-index: 99;
-  background-color: #676767; /* Blue */
+  background-color: #676767;
   color: white;
   cursor: pointer;
   width: 50px;
-  height: 50px; /* Ensures the button is circular */
-  border-radius: 50%; /* Makes it circular */
+  height: 50px;
+  border-radius: 50%;
   font-size: 18px;
-  border: none; /* Remove border */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
-  transition: all 0.3s ease; /* Smooth transition */
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease; 
 }
 
-#myBtn:hover {
-    background-color: #f4b400;/* eoeoeo */
+#scrollToTopBtn:hover {
+    background-color: #f4b400;
     box-shadow: #444;
-  }
-
+  } */
 
